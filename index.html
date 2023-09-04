@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continents</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="header">  
+            <div>
+                <label for="regions">Regió</label> 
+                <select name="select" id="regions">
+                    <option value="" selected></option>
+                    <option value="europe">Europa</option>
+                    <option value="america">America</option>
+                    <option value="asia">Asia</option>
+                    <option value="oceania">Oceania</option>
+                    <option value="africa">Africa</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="filtre">Sort</label>
+                <select name="select" id="filtre">
+                    <option value="alfabetic" selected>Alfabètic</option>
+                    <option value="poblacioAsc">Poblacio asc</option>
+                    <option value="poblacioDes">Poblacio des</option>
+                    <option value="extensioAsc">Extensio asc</option>
+                    <option value="extensioDes">Extensio desc</option>
+                  </select>
+            </div>
+            <div>
+                <label for="filtre">Filtre</label>
+                <select name="select" id="filtre">
+                    <option value="alfabetic" selected>Min</option>
+                </select>
+            </div>
+        </section>
+        <div class="container">
+        </div>
+    </main>
+</body>
+</html>
